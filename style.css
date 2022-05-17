@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(46, 163, 145), rgb(65, 48, 143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.local, .temperatura{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperatura{
+    flex-direction: column;
+}
+
+.secao__graus{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.secao__graus span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.secao__graus h2{
+    font-size: 40px;
+}
